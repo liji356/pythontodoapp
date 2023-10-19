@@ -4,11 +4,6 @@ from.models import Task
 from.forms import TodoForm
 
 
-def task(request):
-    return render(request,'home.html')
-
-
-
 
 
 #Add Field To Database:
